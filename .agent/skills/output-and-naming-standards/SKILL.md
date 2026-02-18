@@ -87,3 +87,22 @@ sink()
 
 - Remove temporary or versioned scratch files (e.g., `_v2`, `_simple`) before finishing.
 - Leave only the final, working scripts in clear execution order.
+
+## Verification file naming
+
+以下は `code-review-companion` スキルで定義される検証ワークフローのファイル命名規約:
+
+| ファイル | 場所 | 用途 |
+|---------|------|------|
+| `_project_config.R` | `{project}/scripts/` | パス定義のみ（副作用なし） |
+| `99_verify_data.R` | `{project}/scripts/` | Stage B 検証スクリプト |
+| `analysis_plan.md` | `{project}/` | 解析計画（`G<gate>-<seq>` ID付き） |
+| `verification_config.yml` | `{project}/` | 期待値・許容範囲の定義 |
+| `qa_inputs.json` | `{project}/output/verification/` | 実行時の実測値（run_all.R が出力） |
+| `back_translation.md` | `{project}/output/verification/` | 逆翻訳レポート（Stage A） |
+| `traceability_matrix.md` | `{project}/output/verification/` | トレーサビリティ表（Stage A） |
+| `qa_report.md` | `{project}/output/verification/` | QAレポート（Stage B） |
+| `sample_verification_report.md` | `{project}/output/verification/` | 検証レポート（Stage B） |
+
+> [!NOTE]
+> 詳細は `.agent/skills/code-review-companion/SKILL.md` を参照。

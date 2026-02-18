@@ -1,0 +1,11 @@
+Metric,Our_Value,Paper_Value
+True Positive (TP),73,73
+False Positive (FP),77,77
+True Negative (TN),373,373
+False Negative (FN),77,77
+Total Responses,600,600
+Accuracy (%),74.33,74
+Precision (%),48.67,48.67
+Sensitivity (%),48.67,48.67
+Specificity (%),82.89,82.89
+AUC,0.66,0.66
