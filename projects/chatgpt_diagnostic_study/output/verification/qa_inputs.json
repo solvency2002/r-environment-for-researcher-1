@@ -1,0 +1,105 @@
+{
+  "key_results": [
+    {
+      "id": "G2A-1",
+      "metric": "n_correct",
+      "value": 74
+    },
+    {
+      "id": "G2A-1",
+      "metric": "case_accuracy_pct",
+      "value": 49.3
+    },
+    {
+      "id": "G2B-1",
+      "metric": "tp_count",
+      "value": 73
+    },
+    {
+      "id": "G2B-1",
+      "metric": "fp_count",
+      "value": 77
+    },
+    {
+      "id": "G2B-1",
+      "metric": "tn_count",
+      "value": 373
+    },
+    {
+      "id": "G2B-1",
+      "metric": "fn_count",
+      "value": 77
+    },
+    {
+      "id": "G2B-2",
+      "metric": "overall_accuracy_pct",
+      "value": 74.33
+    },
+    {
+      "id": "G2B-2",
+      "metric": "precision_pct",
+      "value": 48.67
+    },
+    {
+      "id": "G2B-2",
+      "metric": "sensitivity_pct",
+      "value": 48.67
+    },
+    {
+      "id": "G2B-2",
+      "metric": "specificity_pct",
+      "value": 82.89
+    },
+    {
+      "id": "G2B-2",
+      "metric": "auc",
+      "value": 0.66
+    },
+    {
+      "id": "G2B-3",
+      "metric": "cognitive_load_low",
+      "value": 77
+    },
+    {
+      "id": "G2B-3",
+      "metric": "cognitive_load_moderate",
+      "value": 61
+    },
+    {
+      "id": "G2B-3",
+      "metric": "cognitive_load_high",
+      "value": 12
+    },
+    {
+      "id": "G2B-4",
+      "metric": "quality_complete_relevant",
+      "value": 78
+    },
+    {
+      "id": "G2B-4",
+      "metric": "quality_incomplete_relevant",
+      "value": 64
+    },
+    {
+      "id": "G2B-4",
+      "metric": "quality_incomplete_irrelevant",
+      "value": 8
+    },
+    {
+      "id": "G0B-3",
+      "metric": "n_cases",
+      "value": 150
+    },
+    {
+      "id": "G0B-3",
+      "metric": "n_responses",
+      "value": 600
+    },
+    {
+      "id": "G0B-3",
+      "metric": "n_reviews",
+      "value": 300
+    }
+  ],
+  "assumption_checks": []
+}

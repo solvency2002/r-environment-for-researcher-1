@@ -1,0 +1,9 @@
+variable,category,n,pct
+Answer Correct,FALSE,76,50.7
+Answer Correct,TRUE,74,49.3
+Cognitive Load,Low,77,51.3
+Cognitive Load,Moderate,61,40.7
+Cognitive Load,High,12,8
+Quality,Complete Relevant,78,52
+Quality,Incomplete Relevant,64,42.7
+Quality,Incomplete Irrelevant,8,5.3

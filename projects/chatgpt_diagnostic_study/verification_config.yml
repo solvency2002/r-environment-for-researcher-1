@@ -1,0 +1,96 @@
+on_failure: warn
+
+key_results:
+  # G2A-1: Case Accuracy
+  - id: G2A-1
+    metric: n_correct
+    expected: 74
+    tolerance: 0
+  - id: G2A-1
+    metric: case_accuracy_pct
+    expected: 49.3
+    tolerance: 0.1
+
+  # G2B-1: Diagnostic counts
+  - id: G2B-1
+    metric: tp_count
+    expected: 73
+    tolerance: 0
+  - id: G2B-1
+    metric: fp_count
+    expected: 77
+    tolerance: 0
+  - id: G2B-1
+    metric: tn_count
+    expected: 373
+    tolerance: 0
+  - id: G2B-1
+    metric: fn_count
+    expected: 77
+    tolerance: 0
+
+  # G2B-2: Diagnostic accuracy metrics
+  - id: G2B-2
+    metric: overall_accuracy_pct
+    expected: 74.33
+    tolerance: 0.5
+  - id: G2B-2
+    metric: precision_pct
+    expected: 48.67
+    tolerance: 0.5
+  - id: G2B-2
+    metric: sensitivity_pct
+    expected: 48.67
+    tolerance: 0.5
+  - id: G2B-2
+    metric: specificity_pct
+    expected: 82.89
+    tolerance: 0.5
+  - id: G2B-2
+    metric: auc
+    expected: 0.66
+    tolerance: 0.02
+
+  # G2B-3: Cognitive load counts
+  - id: G2B-3
+    metric: cognitive_load_low
+    expected: 77
+    tolerance: 0
+  - id: G2B-3
+    metric: cognitive_load_moderate
+    expected: 61
+    tolerance: 0
+  - id: G2B-3
+    metric: cognitive_load_high
+    expected: 12
+    tolerance: 0
+
+  # G2B-4: Quality counts
+  - id: G2B-4
+    metric: quality_complete_relevant
+    expected: 78
+    tolerance: 0
+  - id: G2B-4
+    metric: quality_incomplete_relevant
+    expected: 64
+    tolerance: 0
+  - id: G2B-4
+    metric: quality_incomplete_irrelevant
+    expected: 8
+    tolerance: 0
+
+  # G0B-3: Data integrity
+  - id: G0B-3
+    metric: n_cases
+    expected: 150
+    tolerance: 0
+  - id: G0B-3
+    metric: n_responses
+    expected: 600
+    tolerance: 0
+  - id: G0B-3
+    metric: n_reviews
+    expected: 300
+    tolerance: 0
+
+assumption_checks: []

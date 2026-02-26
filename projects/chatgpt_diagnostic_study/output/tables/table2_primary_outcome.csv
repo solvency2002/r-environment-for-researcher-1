@@ -1,0 +1,5 @@
+metric,paper,computed,match
+N total,150,150,TRUE
+N correct,74,74,TRUE
+N incorrect,76,76,TRUE
+Case Accuracy (%),49.3,49.3,TRUE

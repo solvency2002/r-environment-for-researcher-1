@@ -1,0 +1,6 @@
+metric,paper,computed
+Overall Accuracy (%),74,74.33
+Precision (%),48.67,48.67
+Sensitivity (%),48.67,48.67
+Specificity (%),82.89,82.89
+AUC,0.66,0.66
